@@ -1,6 +1,7 @@
 Bella
 
-```DFS
+```
+DFS
 Longest Path in a DAG
 Dijkstra's
 Task Scheduling
@@ -8,7 +9,8 @@ Task Scheduling
 
 Sarah
 
-```Johnson's Algorithm
+```
+Johnson's Algorithm
 Distribution Sort
 Maximum Sum Subarray
 Insertion Sort
@@ -16,7 +18,8 @@ Insertion Sort
 
 Kunhan
 
-```Median of Medians -> quickslect
+```
+Median of Medians -> quickslect
 Coin Change
 Kruskal's
 Shortest path from a vertex in a DAG
@@ -24,7 +27,8 @@ Shortest path from a vertex in a DAG
 
 Evan
 
-```Inversion Counting
+```
+Inversion Counting
 Merge Sort
 Activity Selection
 Bellman Ford
@@ -32,7 +36,8 @@ Bellman Ford
 
 Sze
 
-```Radix Sort
+```
+Radix Sort
 Floyd-Marshall
 Toposort
 0-1 Knapsack
