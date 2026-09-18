@@ -1,4 +1,5 @@
-```Maximum Sum Subarray
+```
+Maximum Sum Subarray
 Inversion Counting
 Insertion Sort
 Merge Sort
@@ -28,4 +29,5 @@ Union Find
 Bellman Ford
 Dijkstra's
 Floyd-Warshall Algorithm
-Johnson's Algorithm```
+Johnson's Algorithm
+```
