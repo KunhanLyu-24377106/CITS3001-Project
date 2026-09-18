@@ -1,3 +1,4 @@
+## All algorithms from the lectures
 ```
 Maximum Sum Subarray
 Inversion Counting
@@ -31,3 +32,17 @@ Dijkstra's
 Floyd-Warshall Algorithm
 Johnson's Algorithm
 ```
+
+# Algorithms not allocated
+These algorithms can be swapped with with the one you've been assigned if needed.
+- Quickselect
+- Quicksort
+- Huffman Code
+- Counting Sort
+- BFS
+- Heapsort
+- Longest Common Subsequence
+- Union-Find
+- Bucket Sort
+- Fractional Knapsack
+- SCCs (Kosaraju's Alg)
