@@ -1,0 +1,16 @@
+\problemname{The Grumpy Queue}
+
+People are queueing for coffee. A person is \emph{grumpy} if the person
+{\em directly} in front of them is taller than they are --- they can't see the
+menu. Count the number of grumpy people.
+
+
+\section*{Input}
+The first line contains an integer $n$ ($1 \le n \le 10^6$), the number
+of people. The second line contains $n$ integers $h_1, \dots, h_n$
+($0 \le h_i \le 10^9$), the heights from the front of the queue to the
+back.
+
+\section*{Output}
+Output a single integer: the number of positions $i$ ($1 \le i < n$)
+with $h_i > h_{i+1}$.
