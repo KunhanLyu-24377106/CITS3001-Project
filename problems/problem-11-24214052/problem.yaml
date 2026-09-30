@@ -1,8 +1,6 @@
-problem_format_version: 2026-09
 name: Bring home the Treasure
-uuid:
+uuid: d62ec3b0-689e-4294-8099-e40400b64238
 source: CITS3001 Project
 author: Sze Ying Lin
 rights_owner: Sze Ying Lin
-
-keywords: [dynamic programming, 0-1 knapsack]
+license: cc by-sa

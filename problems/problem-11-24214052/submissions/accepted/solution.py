@@ -26,7 +26,7 @@ def knapsack(n:int, w:int, algweights:list, algnames:list): # 0-1 knapsack: O(un
             result.add(algnames[alg-1])
         i, h = alg, weight
 
-    return f'{dpt[-1][-1]} {', '.join(sorted(list(result)))}'
+    return f'{dpt[-1][-1]} {", ".join(sorted(list(result)))}'
 
 def main():
     firstLine = input().split()
