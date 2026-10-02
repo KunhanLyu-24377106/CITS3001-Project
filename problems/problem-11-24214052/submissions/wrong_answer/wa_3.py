@@ -1,4 +1,5 @@
-def knapsack(n:int, w:int, algweights:list, algnames:list): # 0-1 knapsack bottomup: O(units*hours) going through all possible states via. DP table
+def knapsack(n:int, w:int, algweights:list, algnames:list): 
+    # Forgets to return items that would be in the knapsack.
     rows, cols = n + 1, w + 1
 
     dpt = [[0 for _ in range(cols)] for _ in range(rows)]
@@ -15,16 +16,9 @@ def knapsack(n:int, w:int, algweights:list, algnames:list): # 0-1 knapsack botto
             else:
                 dpt[i][h] = dpt[i-1][h-weight] + value
 
-    # Traceback to find items to put in knapsack.
-    result = set()
-    h = w
-    for i in range(n, 0, -1):
-        if dpt[i][h] != dpt[i-1][h]:
-            result.add(algnames[i-1])
-            h = h - algweights[i-1][0]
-
-    # Result: 'dpt[-1][-1] algname1, algname2, algname3
-    return f'{dpt[-1][-1]} {", ".join(sorted(list(result)))}'
+    
+    # Result: 'dpt[-1][-1]'
+    return f'{dpt[-1][-1]}'
 
 def main():
     firstLine = input().split()

@@ -1,17 +1,17 @@
-\problemname{Bring home the Treasure}
+\problemname{Bring Home the Treasure}
 
-After the treacherous maze she had to face, Talia finally finds the treasure: the lost O(1) graph algorithms and their proofs (embedded into stone slabs)! However, throughout her tough journeys,
-all she had were the gear that would hopefully help get her home, and a random knapsack she found! Considering that there are too many algorithms and proofs to fit 
-into her bag, what algorithms and their respective proofs should she actually bring home? Note that the name of the algorithms are \em {one word only (no spaces)} and that 
-no two algorithm proofs share the same value.
+After the treacherous maze she had to face, Talia finally finds the treasure: the lost O(1) graph algorithms and their proofs (embedded into stone slabs)! 
+However, throughout her tough journeys, all she had left to put them in was the bag on her back. Considering that there are too many algorithms and proofs to fit 
+into her bag, what algorithms and their respective proofs should she actually bring home? Note that the name of the algorithms are {\em one word only (no spaces)} 
+and that no two algorithm proofs share the same value.
 
 
 \section*{Input}
 The first line contains an integer $n$ ($1 \le n \le 100$), the number of algorithm proof papers in the treasure, and integer $w$ ($1 \le n \le 1000$), 
-the max weight you can fit into your bag. The next $n$ lines contains the name of the algorithm $A$ ($1 \le |A_i| \le $10), 
+the max weight Talia can fit into her bag. The next $n$ lines contains the name of the algorithm $A$ ($1 \le |A_i| \le $10), 
 the value of that algorithm based on how useful it would be to the world $v$ ($1 \le v_i \le 10^5$)
 and the weight of the algorithmic proofs $p$ ($1 \le p_i \le $w).
 
 \section*{Output}
 Outputs an integer: the maximum value of the optimal set of proofs she should fit in her bag $m$ ($0 \le m \le $n), 
-and a list of proofs sorted by alphabetical order $S$ in the format of $s_1, \dots, s_m$, that she would be able to put into her knapsack.
+and a string: a list of proofs sorted by alphabetical order $S$ in the format of $s_1, s_2, \dots, s_m$, that she would be able to put into her knapsack.

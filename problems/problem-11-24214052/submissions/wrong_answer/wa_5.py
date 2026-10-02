@@ -1,4 +1,4 @@
-def knapsack(n:int, w:int, algweights:list, algnames:list): # 0-1 knapsack bottomup: O(units*hours) going through all possible states via. DP table
+def wrong(n:int, w:int, algweights:list, algnames:list): # 0-1 knapsack bottom up: O(units*hours) going through all possible states via. DP table
     rows, cols = n + 1, w + 1
 
     dpt = [[0 for _ in range(cols)] for _ in range(rows)]
@@ -36,9 +36,8 @@ def main():
     for _ in range(n):
         paper = input().split()
         algnames.append(paper[0])
-        algweights.append((int(paper[2]), int(paper[1]))) # 1: Value, 2: Weight, reversed for convenience. 
-        # So for each value in algweights: (Weight, Value)
-    return knapsack(n, w, algweights, algnames)
+        algweights.append((int(paper[1]), int(paper[2]))) # Input incorrectly interpreted, weight as value and value as weight.
+    return wrong(n, w, algweights, algnames)
 
 if __name__=='__main__':
     print(main())

@@ -2,5 +2,8 @@ name: Bring home the Treasure
 uuid: d62ec3b0-689e-4294-8099-e40400b64238
 source: CITS3001 Project
 author: Sze Ying Lin
-rights_owner: Sze Ying Lin
-license: cc by-sa
+license: educational
+
+limits:
+  time_limit: 3.0
+  memory: 2048

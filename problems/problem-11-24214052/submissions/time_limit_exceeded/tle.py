@@ -15,7 +15,6 @@ def makesubsets(algweights):
     subset(x)
     return x
     
-    
 def bruteforce(n, w, algweights, algnames):
     subsets = makesubsets(algweights)
     bestvalue = 0
