@@ -1,0 +1,18 @@
+\problemname{Ancient Texts}
+
+After travelling across the island for while, Talia comes upon a ruined inn, bearing a chest of \emph{N} ancient texts. 
+These texts appear to only consist of the english alphabet (uppercase or lowercase, including spaces), scrambled arbitrarily as part of an ancient, unknown language. 
+
+In addition to these texts, she finds a readable message engraved on the ceiling of the chest: "The length of the longest contiguous portion shared between any two texts will point you to the truth."
+
+Return this length that points to the truth.
+
+Note: An optimal (bilinear) pair checking algorithm is required
+
+
+\section*{Input}
+The first line contains an integer $N$ ($2 \le N \le 25$), the number of ancient texts. The next $N$ lines contain the strings $s_1, \dots, s_N$
+($0 \le len(s_i) \le 400$), the ancient texts in string representation.
+
+\section*{Output}
+Output a single integer $T$ ($0 \le T \le 400$).

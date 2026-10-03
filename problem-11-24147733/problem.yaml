@@ -1,0 +1,11 @@
+problem_format_version: 2025-09
+name: Ancient Texts
+uuid: 13bbe978-2862-4435-89f6-222b8c217a5c
+source: CITS3001 Advanced Algorithms 2026 Project --- Ancient Texts
+name: Evan Miocevich
+license: educational
+rights_owner: Evan Miocevich
+
+limits:
+  time_limit: 5.0
+  memory: 2048
