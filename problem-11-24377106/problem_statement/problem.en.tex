@@ -1,0 +1,55 @@
+\problemname{Talia and the Tollkeepers' Promise}
+
+Talia has reached the island of \emph{numbertheorious}, searching for the lost
+proof of an $O(1)$ graph algorithm. Her map marks the island's ancient landmarks
+with numbers, but their names have faded away. To find the next clue, she must
+visit every landmark and copy its inscription, then return to her camp to study
+the completed record. Perhaps the inscriptions will lead her to the hidden
+chest of ancient scrolls.
+
+The island's tollkeepers make an unusual promise: \emph{pay for a road once,
+and that road remembers you}. Whenever Talia uses a particular road for the
+first time, she pays its toll. After that, she can use the same road in either
+direction any number of times for free. All roads can be travelled in either
+direction, including before their toll has been paid.
+
+Talia starts at landmark $1$, where her camp is located. She may visit
+landmarks and traverse roads repeatedly. Different roads between the same
+two landmarks have separate tolls: paying for one does not pay for another.
+Her only expense is these road tolls. Travel time, distance, and the number
+of crossings do not affect the cost. Some roads have fallen into ruin, so
+the usable roads on the map might not allow her to reach every landmark.
+
+What is the minimum total toll Talia must pay to visit every landmark at
+least once and return to landmark $1$? Landmark $1$ is already visited at
+the start, and she has not paid for any roads before the journey begins.
+
+\section*{Input}
+The input describes one map. The first line contains two integers $n$ and
+$m$ ($1 \leq n \leq 200\,000$, $0 \leq m \leq 300\,000$), the number of
+landmarks and usable roads.
+
+Each of the next $m$ lines contains three integers $u$, $v$, and $w$
+($1 \leq u,v \leq n$, $u \neq v$, $0 \leq w \leq 10^9$), describing
+a road between landmarks $u$ and $v$ whose toll is $w$ coins.
+Each line describes a distinct road. Multiple roads may join the same pair
+of landmarks, tolls may be equal or zero, and roads are listed in no
+particular order.
+
+\section*{Output}
+Output a single integer: the minimum total toll in coins. If the journey
+is impossible, output \texttt{IMPOSSIBLE} instead.
+If there is only one landmark, Talia can stay at camp and the answer is $0$.
+
+\section*{Sample Explanations}
+In Sample 1, Talia can follow
+$1,2,3,2,4,5,4,2,1$. The first uses of the roads cost
+$2+1+5+3=11$ coins. All later uses of those roads are free.
+No valid journey costs less.
+
+In Sample 2, she can use the zero-toll road between $1$ and $2$, then the
+road from $2$ to $3$, and return along the same roads for a total of $4$.
+The other road between $1$ and $2$ is a separate road and need not be used.
+
+In Sample 3, landmarks $3$ and $4$ cannot be reached from camp. In Sample 4,
+camp is the only landmark, so no roads are needed.

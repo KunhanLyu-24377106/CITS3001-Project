@@ -1,0 +1,29 @@
+# CITS3001 judge configuration. 
+# Compatible with the supplied sample package.
+problem_format_version: legacy
+name: "Talia and the Tollkeepers' Promise"
+uuid: 8517151e-0758-43f5-b8ff-51e6b3a935c6
+type: pass-fail
+author: Kunhan Lyu
+source: CITS3001 Advanced Algorithms 2026 - Group Project
+license: educational
+rights_owner: CITS3001 Group Project authors
+
+# Fixed contestant time limit: 5 seconds in domjudge-problem.ini.
+# The multipliers below control problemtools time-limit calibration.
+limits:
+  time_multiplier: 2.0
+  time_safety_margin: 1.5
+  memory: 512
+  output: 1
+  code: 128
+  compilation_time: 60
+  compilation_memory: 512
+  validation_time: 60
+  validation_memory: 512
+  validation_output: 1
+
+validation: default
+validator_flags: case_sensitive
+
+keywords: graph minimum-spanning-tree kruskal union-find greedy
