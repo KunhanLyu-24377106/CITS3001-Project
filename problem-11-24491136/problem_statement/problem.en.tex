@@ -1,0 +1,19 @@
+\problemname{Talia's Adventure}
+
+Talia was only a few steps away from the treasure when the floor beneath 
+her gave way! She was dropped into the maze of tunnels and has landed at junction $1$. 
+The only way out is the exit shaft at junction $n$. Each tunnel joins two junctions, 
+can be walked in either direction, and takes a fixed number of minutes to walk through. 
+What is the fastest Talia can reach the exit?
+
+\section*{Input}
+The first line contains two integers $n$ and $m$
+($2 \le n \le 10^5$, $1 \le m \le 2 \cdot 10^5$), the number of junctions and
+the number of tunnels. Each of the next $m$ lines contains three integers
+$u$, $v$ and $t$ ($1 \le u, v \le n$, $u \ne v$, $1 \le t \le 10^6$): a tunnel
+between junctions $u$ and $v$ that takes $t$ minutes to walk through.
+It is guaranteed that the exit can be reached from junction $1$.
+
+\section*{Output}
+Output a single integer: the minimum number of minutes Talia needs to walk
+from junction $1$ to junction $n$.
