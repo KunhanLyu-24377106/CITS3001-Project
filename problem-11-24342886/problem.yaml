@@ -1,0 +1,13 @@
+name: Talia's Supplies
+author: Sarah Siddiqui
+source: CITS3001 Project 2026
+license: cc by-sa
+rights_owner: Sarah Siddiqui
+uuid: 4c587cdb-891f-43c3-8cbb-3cff5f27dfec
+
+limits:
+  time_multiplier: 5
+  time_safety_margin: 2
+  memory: 2048
+
+  
